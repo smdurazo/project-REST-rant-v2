@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
-app.use('places', requiure('./controllers/places'))
+app.use('places', require('./controllers/places'))
 
 app.get('/', (req, res) => {
     res.send('Hello world!')
@@ -12,4 +12,4 @@ app.get('*', (req, res) => {
     res.status(404).send('<h1>404 Page</h1>')
 })
 
-app.listen(procress.env.PORT)
+app.listen(process.env.PORT)
