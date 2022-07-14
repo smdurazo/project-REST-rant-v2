@@ -9,7 +9,7 @@ function home () {
                 <div>
                     <img src="/images/pizza.jpg" alt="Pizza Slice" />
                     <div>
-                        Photo by <a href="https://unsplash.com/@iavnt">Ivan Torres</a> on<a href="http://upsplash.com/">Unsplash</a>
+                        Photo by <a href="https://unsplash.com/@iavnt">Ivan Torres</a> on <a href="http://upsplash.com/">Unsplash</a>
                     </div>
                 </div>
                 <a href="/places">
