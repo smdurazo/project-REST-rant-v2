@@ -1,18 +1,24 @@
 {
   "name": "project-rest-rant-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST-Rant is an app where users can review restaurants.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smdurazo/project-REST-rant-v2.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smdurazo/project-REST-rant-v2/issues"
+  },
+  "homepage": "https://github.com/smdurazo/project-REST-rant-v2#readme",
   "dependencies": {
-    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "express-react-views": "^0.11.0",
-    "react": "^18.2.0"
+    "express-react-views": "^0.11.0"
   }
 }
