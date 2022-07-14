@@ -5,12 +5,16 @@ function home () {
     return (
         <Def>
             <main>
-                <div>
                 <h1>HOME</h1>
+                <div>
+                    <img src="/images/pizza.jpg" alt="Pizza Slice" />
+                    <div>
+                        Photo by <a href="https://unsplash.com/@iavnt">Ivan Torres</a> on<a href="http://upsplash.com/">Unsplash</a>
+                    </div>
+                </div>
                 <a href="/places">
                     <button className="btn-primary">Places Page</button>
                 </a>
-                </div>
             </main>
         </Def>
     )
